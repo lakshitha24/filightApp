@@ -1,0 +1,43 @@
+<div class="row homeview">
+	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		<div class="form-group">
+			<input type="text" class="form-control"  placeholder="From city or airport" ng-model="fromLoc">
+		</div>
+		<div class="dropDown" ng-show="fromDropdown" ng-mouseenter="fromDropdown=true" ng-mouseleave="fromDropdown=false">
+			<ul>
+				<li ng-repeat="city in citys track by $index">{{city}}</li>
+				
+			</ul>
+		</div>
+	</div>
+	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		<div class="form-group">
+			<input type="text" class="form-control"  placeholder="To a city, country or region">
+		</div>
+	</div>
+	<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+		<div class="form-group">
+			<input type="text" class="form-control" datepicker id="datepic1"  placeholder="date">
+		</div>
+	</div>
+	<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+		<div class="form-group">
+			<input type="text" class="form-control" datepicker id="datepic" placeholder="date">
+		</div>
+	</div>
+	<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ">
+		<div class="form-group">
+			<input type="number" class="form-control"  placeholder="No of pasengers" ng-model="countModel" min="0">
+		</div>
+		<div class="countdropDown" ng-show="countDropdown" ng-mouseenter="countDropdown=true" ng-mouseleave="countDropdown=false">
+			<ul>
+				<li>Number of Adults <span class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="addAdult()"></span><span class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="removeAdults()"></span></li>
+				<li>Number of Childern <span class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="AddChild()"></span><span class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="removeChild()"></span></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 buttonView">
+		<button type="button" class="btn btn-default">Search</button>
+	</div>
+</div>

@@ -1,0 +1,101 @@
+.footer {
+   
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+}
+.mainView{
+       height: 576px;
+      
+}
+.mainNav{
+    background-color: rgba(0, 0, 0, 0.64);
+    border-color: transparent;
+}
+.acessView{
+       position: absolute;
+    width: 1200px;
+    top: 295px;
+    left: 80px;
+    padding-top: 22px;
+    padding-left: 36px;
+    padding-bottom: 7px;
+    z-index: 10;
+    background-color: rgba(12, 155, 198, 0.85);
+    border-radius: 4px;
+}
+.homeview input #datepic1{
+    cursor: pointer;
+}
+.homeview .buttonView{
+    text-align: center;
+    margin: auto -1%;
+}
+.textView{
+    text-align: center;
+}
+.homeview .form-control{
+    border-radius: 2px;
+    height: 47px;
+    padding: 6px 8px;
+    font-size: 17px;
+}
+.homeview .btn-default{
+       background-color: #4E65CE;
+    color: white;
+    border-color: #6e81d4;
+}
+.homeview .btn{
+    padding: 10px 17px;
+        border-radius: 1px;
+        font-size: 18px;
+}
+.homeview .dropDown{
+    position: absolute;
+    width: 90%;
+    background-color: white;
+    top: 48px;
+    border-radius: 3px;
+    padding-top: 6px;
+}
+.homeview .dropDown ul{
+list-style: none;
+    margin-left: 10px;
+    padding-left: 0px;
+    margin-bottom: 4px;
+        margin-right: 10px;
+}
+.homeview .dropDown ul li{
+    padding:2px;
+    cursor: pointer;
+}
+.homeview .dropDown ul li:hover{
+background-color: #bee1ea;
+}
+.homeview .countdropDown{
+     position: absolute;
+    width: 96%;
+    background-color: white;
+    top: 48px;
+    border-radius: 3px;
+    padding-top: 6px;
+}
+.homeview .countdropDown ul{
+    list-style: none;
+    margin-left: 10px;
+    padding-left: 0px;
+    margin-bottom: 4px;
+        margin-right: 10px;
+}
+.homeview .countdropDown ul li span {
+    float: right;
+    padding-left: 6px;
+    cursor: pointer;
+}
+.homeview .countdropDown ul li span:hover{
+    color: #0064ff
+}
+.homeview .countdropDown ul li{
+
+}
